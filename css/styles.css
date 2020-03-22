@@ -1,0 +1,178 @@
+/* Element styling */
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+  font-weight: 800;
+}
+
+/* Headings styling */
+.main-heading {
+  font-size: 3.5rem;
+  line-break: 1.5;
+}
+
+.price-title {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 4% 20%;
+}
+
+/* Navigation style */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  margin: 20px;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+/* Download button styles */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* landing image style */
+.title-img {
+  width: 50%;
+  transform: rotate(20deg);
+  margin: 0 25%;
+  position: absolute;
+}
+
+/* Features style */
+#features {
+  padding: 7% 14%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  padding: 2%;
+}
+
+.feature-title {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.fa-alt {
+  font-size: 400%;
+}
+
+/* Testimonial styles */
+#testimonials {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 200%;
+  margin: 20px;
+}
+
+.testimonial-text{
+    line-height: 2;
+}
+
+.carousel-item {
+  padding: 7% 14%;
+}
+
+/* Press styling */
+#press {
+  background-color: #ff4c68;
+  padding-bottom: 4%;
+}
+
+.press-logo {
+  width: 10%;
+  margin: 0 20px;
+}
+
+/* Pricing card styling */
+#pricing {
+  padding: 100px 16%;
+}
+
+.pricing-title{
+    line-height: 2;
+}
+
+.price-text{
+    line-height: 2;
+    padding: 2%;
+}
+
+.card {
+  margin-top: 4%;
+}
+
+/* Media query */
+
+@media (max-width: 991px) {
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+
+  .container-fluid {
+    text-align: center;
+  }
+}
+
+/* calling to action styling */
+#cta {
+  background-color: #ff4c68;
+  padding: 6% 14%;
+  font-family: "Montserrat";
+  font-weight: 800;
+  color: #fff;
+}
+
+/* Footer styling */
+#footer {
+  padding: 4% 14% 2%;
+}
+
+.fa-connect {
+    text-decoration: none;
+    color:  #e22340;
+    margin: 20px 15px;
+}
+.fa-connect:hover{
+    color: #ff4c68;
+}
+
