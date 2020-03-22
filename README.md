@@ -1,2 +1,2 @@
 # dogMatch
-Tinder dor our dogs
+Tinder template for our dogs
